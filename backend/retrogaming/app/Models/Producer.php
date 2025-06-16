@@ -8,6 +8,6 @@ class Producer extends Model
 {
    protected $fillable = ['name','country'];
    public function videogames(){
-    return $this->hasMany(Videogame::class);
+    return $this->hasMany(Videogame::class ,'producer_id');
    }
 }
