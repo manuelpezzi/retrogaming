@@ -9,7 +9,7 @@ function App() {
     <Router>
       <div className="App">
         <Navbar />
-        <div className="container mt-3">
+        <div className="container mt-3 min">
           <Routes>
             <Route path="/" element={<VideogameList />} />
             <Route path="/videogame/:id" element={<VideogameDetail />} />
