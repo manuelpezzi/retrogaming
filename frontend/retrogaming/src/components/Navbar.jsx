@@ -4,9 +4,9 @@ function Navbar() {
     return (
         <nav className="navbar navbar-dark bg-dark">
             <div className="container">
-                <link rel="stylesheet" href="" to="/" className="navbar-brand">
+                <Link rel="stylesheet" href="" to="/" className="navbar-brand">
                     RetroGaming
-                </link>
+                </Link>
             </div>
         </nav>
     );

@@ -1,28 +1,23 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/navbar';
-import VideogameList from './components/VideogameList';
-import VideogameDetail from './components/VideogameDetail';
+import Navbar from './components/navbar.jsx';
+import VideogameList from './components/VideogameList.jsx';
+import VideogameDetail from './components/VideogameDetail.jsx';
+import './App.css';
 
 function App() {
-
-
   return (
     <Router>
-      <div className="app">
+      <div className="App">
         <Navbar />
         <div className="container mt-3">
           <Routes>
-            <Route path='/' element={<VideogameList />} />
-            <Route path='/videogame/:id' element={<VideogameDetail
-            />} />
-
+            <Route path="/" element={<VideogameList />} />
+            <Route path="/videogame/:id" element={<VideogameDetail />} />
           </Routes>
         </div>
       </div>
     </Router>
-
-
-  )
+  );
 }
 
-export default App
+export default App;

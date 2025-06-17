@@ -1,0 +1,18 @@
+.App {
+    text-align: center;
+    background-color: #294fca;
+}
+
+h1 {
+    font-size: 1.2rem;
+}
+
+.card {
+    border: 2px solid #00ff00;
+}
+
+.main-page {
+    background-color: #294fca;
+    min-height: 100vh;
+    padding: 20px 0;
+}
