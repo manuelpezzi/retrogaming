@@ -19,7 +19,7 @@ class GenreSeeder extends Seeder
             ['name'=>'RPG','color'=>'#008000'],
             ['name'=>'JRPG','color'=>'#00CED1'],
             ['name'=>'Adventure','color'=>'#FFA500'],
-            ['name'=>'Puzzle','color'=>'#FFFF00'],
+            ['name'=>'Puzzle','color'=>'#CEC03B'],
         ];
         foreach ($genres as $genre) {
             Genre::updateOrCreate(

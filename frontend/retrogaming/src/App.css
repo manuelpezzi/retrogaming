@@ -1,6 +1,6 @@
 .App {
     text-align: center;
-    background-color: #294fca;
+    background-color: #00CED1
 }
 
 h1 {
@@ -12,7 +12,6 @@ h1 {
 }
 
 .main-page {
-    background-color: #294fca;
     min-height: 100vh;
     padding: 20px 0;
 }
