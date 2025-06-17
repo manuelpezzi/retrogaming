@@ -10,7 +10,11 @@
         <div class="card-body">
             <p><strong>Year:</strong> {{ $videogame->anno }}</p>
             <p><strong>Producer:</strong> {{ $videogame->producer->name }}</p>
-            <p><strong>Genres:</strong> {{ $videogame->genres->pluck('name')->implode(', ') }}</p>
+            <p><strong>Genres:</strong>
+                @foreach ($videogame->genres as $genre)
+                    <span class="badge" style="background-color: {{ $genre->color }}; color: #fff;">{{ $genre->name }}</span>
+                @endforeach
+            </p>
             <p><strong>Description:</strong> {{ $videogame->description ?? 'No description' }}</p>
             <a href="{{ route('videogames.edit', $videogame) }}" class="btn btn-warning">Edit</a>
             <form action="{{ route('videogames.destroy', $videogame) }}" method="POST" style="display:inline;">

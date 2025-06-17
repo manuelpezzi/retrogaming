@@ -27,7 +27,12 @@
                     <td>{{ $videogame->titolo }}</td>
                     <td>{{ $videogame->anno }}</td>
                     <td>{{ $videogame->producer->name }}</td>
-                    <td>{{ $videogame->genres->pluck('name')->implode(', ') }}</td>
+                    <td>
+                        @foreach ($videogame->genres as $genre)
+                            <span class="badge"
+                                style="background-color: {{ $genre->color }}; color: #fff;">{{ $genre->name }}</span>
+                        @endforeach
+                    </td>
                     <td>
                         <a href="{{ route('videogames.show', $videogame) }}" class="btn btn-sm btn-info">Details</a>
                         <a href="{{ route('videogames.edit', $videogame) }}" class="btn btn-sm btn-warning">Edit</a>
