@@ -1,6 +1,10 @@
 .App {
     text-align: center;
-    background-color: #00CED1
+    background-image: url(./assets/26bab10ac43236043d11f0052e040baa.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
 }
 
 h1 {
