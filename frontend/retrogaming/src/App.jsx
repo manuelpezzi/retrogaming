@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import Navbar from './components/navbar.jsx';
+import Navbar from './components/Navbar.jsx';
 import VideogameList from './components/VideogameList.jsx';
 import VideogameDetail from './components/VideogameDetail.jsx';
 import './App.css';
