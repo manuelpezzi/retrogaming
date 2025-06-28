@@ -5,11 +5,21 @@
     background-position: center;
     background-repeat: no-repeat;
 
+
 }
 
 h1 {
     font-size: 1.2rem;
 }
+
+h5,
+a,
+p,
+h1 {
+    color: #00ff00 !important;
+}
+
+;
 
 .card {
     border: 2px solid #00ff00;
@@ -22,4 +32,64 @@ h1 {
 
 .min {
     min-height: 93vh;
+}
+
+.gaming {
+
+    text-align: center;
+    margin-top: 5%;
+    color: #00ff00;
+
+}
+
+.title {
+    font-size: 3rem;
+}
+
+
+
+.retro-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+
+    height: 200px;
+
+    border-radius: 50%;
+
+    background: radial-gradient(circle, #ff4444, #cc0000);
+
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: center;
+    border: 4px solid #333;
+
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.5), inset 0 2px 5px rgba(255, 255, 255, 0.3);
+
+    transition: transform 0.1s ease, box-shadow 0.1s ease;
+
+    cursor: pointer;
+}
+
+.retro-button:hover {
+    transform: translateY(3px);
+
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+
+}
+
+.retro-button:active {
+    transform: translateY(5px);
+
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+.description {
+    color: white !important;
 }

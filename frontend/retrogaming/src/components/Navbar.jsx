@@ -7,6 +7,7 @@ function Navbar() {
                 <Link rel="stylesheet" href="" to="/" className="navbar-brand">
                     RetroGaming
                 </Link>
+                <Link rel="stylesheet" href="" to="/videogame" className="navbar-brand"> videogames</Link>
             </div>
         </nav>
     );

@@ -3,6 +3,7 @@ import Navbar from './components/navbar.jsx';
 import VideogameList from './components/VideogameList.jsx';
 import VideogameDetail from './components/VideogameDetail.jsx';
 import './App.css';
+import HomePage from './components/homepage.jsx';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         <Navbar />
         <div className="container mt-3 min">
           <Routes>
-            <Route path="/" element={<VideogameList />} />
+            <Route path='/' element={<HomePage />} />
+            <Route path="/videogame" element={<VideogameList />} />
             <Route path="/videogame/:id" element={<VideogameDetail />} />
           </Routes>
         </div>

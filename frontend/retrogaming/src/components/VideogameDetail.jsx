@@ -63,7 +63,7 @@ function VideogameDetail() {
                             </span>
                         ))}
                     </p>
-                    <p>
+                    <p className='description'>
                         <strong>Description:</strong> {videogame.description || 'No description'}
                     </p>
                 </div>
