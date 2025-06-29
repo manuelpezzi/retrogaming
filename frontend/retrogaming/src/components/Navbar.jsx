@@ -4,10 +4,10 @@ function Navbar() {
     return (
         <nav className="navbar navbar-dark bg-dark">
             <div className="container">
-                <Link rel="stylesheet" href="" to="/" className="navbar-brand">
+                <Link to="/" className="navbar-brand">
                     RetroGaming
                 </Link>
-                <Link rel="stylesheet" href="" to="/videogame" className="navbar-brand"> videogames</Link>
+                <Link to="/videogame" className="navbar-brand"> videogames</Link>
             </div>
         </nav>
     );
