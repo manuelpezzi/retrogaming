@@ -19,7 +19,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1998,
                 'description' => 'Un gioco stealth iconico diretto da Hideo Kojima.',
                 'producer_id' => 1, // Konami
-                'copertina' => 'covers/metal_gear_solid.jpg',
+                'copertina' => '',
                 'genres' => [1, 2], // Action, Stealth
             ],
             [
@@ -27,7 +27,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1998,
                 'description' => 'Un capolavoro di avventura di Nintendo.',
                 'producer_id' => 2, // Nintendo
-                'copertina' => 'covers/zelda_ocarina.jpg',
+                'copertina' => '',
                 'genres' => [4], // Adventure
             ],
             [
@@ -35,7 +35,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1997,
                 'description' => 'Un JRPG leggendario con una trama epica.',
                 'producer_id' => 3, // Square Enix
-                'copertina' => 'covers/final_fantasy_vii.jpg',
+                'copertina' => '',
                 'genres' => [3, 6], // RPG, JRPG
             ],
             [
@@ -43,7 +43,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1996,
                 'description' => 'Un platform rivoluzionario per Nintendo 64.',
                 'producer_id' => 2, // Nintendo
-                'copertina' => 'covers/super_mario_64.jpg',
+                'copertina' => '',
                 'genres' => [4], // Adventure
             ],
             [
@@ -51,7 +51,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1998,
                 'description' => 'Un survival horror classico ambientato a Raccoon City.',
                 'producer_id' => 4, // Capcom
-                'copertina' => 'covers/resident_evil_2.jpg',
+                'copertina' => '',
                 'genres' => [1], // Action
             ],
             [
@@ -59,7 +59,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1995,
                 'description' => 'Un JRPG con viaggi nel tempo e una storia epica.',
                 'producer_id' => 3, // Square Enix
-                'copertina' => 'covers/chrono_trigger.jpg',
+                'copertina' => '',
                 'genres' => [3, 6], // RPG, JRPG
             ],
             [
@@ -67,7 +67,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1996,
                 'description' => 'Un platform iconico per PlayStation.',
                 'producer_id' => 5, // Sony
-                'copertina' => 'covers/crash_bandicoot.jpg',
+                'copertina' => '',
                 'genres' => [1, 4], // Action, Adventure
             ],
             [
@@ -75,7 +75,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1999,
                 'description' => 'Un survival horror psicologico di grande impatto.',
                 'producer_id' => 1, // Konami
-                'copertina' => 'covers/silent_hill.jpg',
+                'copertina' => '',
                 'genres' => [1], // Action
             ],
             [
@@ -83,7 +83,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1991,
                 'description' => 'Un gioco di combattimento che ha definito il genere.',
                 'producer_id' => 4, // Capcom
-                'copertina' => 'covers/street_fighter_ii.jpg',
+                'copertina' => '',
                 'genres' => [1], // Action
             ],
             [
@@ -91,7 +91,7 @@ class VideogameSeeder extends Seeder
                 'anno' => 1989,
                 'description' => 'Un classico puzzle game distribuito da Nintendo.',
                 'producer_id' => 2, // Nintendo
-                'copertina' => 'covers/tetris.jpg',
+                'copertina' => '',
                 'genres' => [5], // Puzzle
             ],
         ];

@@ -101,7 +101,7 @@ class VideogameController extends Controller
             $videogame->copertina = $img_url;
         }
 
-        $videogame->save();
+        $videogame->update();
 
         // Sincronizza i generi
         if (array_key_exists('genres', $data)) {
