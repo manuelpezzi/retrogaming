@@ -9,7 +9,7 @@
                 benvenuto in Retrogaming <i class="fas fa-gamepad"></i>
             </h1>
             <p class="col-md-8 fs-4 text-center m-auto">
-                questo sito è stato realizzato per creare la tua collezione perfetta dei giochi che anno accompagnato la
+                questo sito è stato realizzato per creare la tua collezione perfetta dei giochi che hanno accompagnato la
                 tua
                 infanzia
             </p>
